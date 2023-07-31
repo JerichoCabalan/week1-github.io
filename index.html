@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <title>Activity task</title>
+    
+        
+</head>
+
+<body>
+     <div class="login-container">
+        <h2>Login Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>    
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="survey-container">
+        <h2>Survey Form</h2>
+        <form action="#" method="post">
+            <div class="survey-form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="survey-form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="survey-form-group">
+                <label>Gender:</label>
+
+             
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </div>
+            <div class="survey-form-group">
+                <label>Programming Languages:</label>
+                <select name="age-group" required>
+                    <option value="">Select Programming Languages list</option>
+                    <option value="">Javascript.</option>
+                    <option value="">Python.</option>
+                    <option value="">Java.</option>
+                    <option value="">PHP.</option>
+                    <option value="">C# and C++</option>
+                </select>
+            </div>
+            <div class="survey-form-group">
+                <label>What are your interests? (Check all that apply)</label>
+                <input type="checkbox" name="interests" value="frontenddeveloper">Front End Developer
+                <input type="checkbox" name="interests" value="backenddeveloper">Back End Developer
+                <input type="checkbox" name="interests" value="softwareengineering">Software Engineering?
+                
+            </div>
+            <div class="survey-form-group">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+
+</html>
